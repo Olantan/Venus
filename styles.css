@@ -1,13 +1,89 @@
+/* styles.css for VENUS Fitness & Wellness Tracker */
+
+/* Body styles */
 body {
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
+    padding: 0;
+    margin: 0;
+    line-height: 1.6;
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header nav {
+    margin-top: 10px;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Main section styles */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
     padding: 20px;
 }
 
-h1 {
-    color: #333;
+.section {
+    padding: 40px 0;
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
 }
 
-p {
-    color: #666;
+.section h2 {
+    color: #333;
+    font-size: 2em;
+    margin-bottom: 10px;
 }
+
+.section p {
+    color: #666;
+    font-size: 1.1em;
+    line-height: 1.8;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9em;
+}
+
